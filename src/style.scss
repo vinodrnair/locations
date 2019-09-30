@@ -1,0 +1,58 @@
+.appContainer {
+    .title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .notifications {
+        margin-left: 25px;
+        text-align: center;
+        color: blue;
+        font-size: 24px;
+    }
+    .toast {
+        position: absolute;
+        right: 50px;
+        max-width: unset;
+        height: 40px;
+        z-index: 1;
+        .customToast {
+            font-size: 20px;
+            padding-top: 3px;
+            height: 100%;
+            padding: 3px 10px;
+            &.positive {
+                color: #155724;
+                background-color: #d4edda;
+            }
+        
+            &.negative {
+                color: #721c24;
+                background-color: #f8d7da;
+            }
+        }
+    }
+
+    .mapContainer {
+        padding: 22px 40px;
+        > div {
+            height: 80vh;
+            width: 100%;
+        }
+    }
+
+    .locCardsContainer {
+        .locationCard {
+            margin-top: 20px;
+            .address {
+                height: 65px;
+                overflow-y: auto;
+            }
+    
+            .btn-primary {
+                margin-right: 20px;
+            }
+        }
+    }
+    
+}
