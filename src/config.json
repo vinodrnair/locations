@@ -1,7 +1,7 @@
 {
     "GOOGLE_MAP_KEY": "",
-    "DEFAULT_LATITUDE": 51.1657,
-    "DEFAULT_LONGITUDE": 10.4515,
+    "DEFAULT_LATITUDE": 19.1251,
+    "DEFAULT_LONGITUDE": 72.9701,
     "DEFAULT_ZOOM": 6,
     "GOOGLE_MAP_URL":"https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places",
     "API_BASE_URL": "http://localhost:5000"
